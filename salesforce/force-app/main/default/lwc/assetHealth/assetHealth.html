@@ -1,0 +1,11 @@
+<template>
+    <lightning-card title="Asset Health" icon-name="standard:asset_object">
+        <template if:true={error}><p class="slds-p-around_medium slds-text-color_error">{error}</p></template>
+        <template for:each={assets} for:item="a">
+            <div key={a.Id} class="slds-p-horizontal_medium slds-p-vertical_x-small">
+                <strong>{a.Name}</strong> ({a.SerialNumber})
+                <span class={a.badge}> {a.openCases} open case(s)</span>
+            </div>
+        </template>
+    </lightning-card>
+</template>

@@ -1,0 +1,2 @@
+{ "packageDirectories": [{ "path": "salesforce/force-app", "default": true }],
+  "namespace": "", "sourceApiVersion": "60.0" }

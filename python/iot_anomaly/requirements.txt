@@ -1,0 +1,6 @@
+pandas
+fastapi
+uvicorn
+simple-salesforce
+pytest
+httpx
